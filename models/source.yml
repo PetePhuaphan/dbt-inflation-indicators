@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw  
+    tables:
+      - name: ca_commodity_price_index_monthly
+      - name: ca_cpi_monthly
+      - name: ca_interest_rate_monthly
+      - name: ca_unemployment_rate_monthly

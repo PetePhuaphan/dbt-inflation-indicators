@@ -1,0 +1,38 @@
+version: 2
+
+models:
+    - name: ca_commodities_monthly
+      description: "ca_commodities_monthly generic test cases"
+      columns:
+          - name: date
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: ca_inflation_indicators
+      description: "ca_inflation_indicators generic test cases"
+      columns:
+          - name: date
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: unemployment_monthly
+      description: "unemployment_monthly generic test cases"
+      columns:
+          - name: date
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: cpi_factors_monthly
+      description: "cpi_factors_monthly generic test cases"
+      columns:
+          - name: date
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
